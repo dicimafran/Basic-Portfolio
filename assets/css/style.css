@@ -1,0 +1,75 @@
+body {
+    background-image:url("assets/images/curls.png");
+}
+
+
+
+#name {
+    color: white;
+    background: #4aaaa5;
+    padding: 10px;
+    float: left;
+}
+
+.nav {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgb(83, 53, 167);
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.aboutme {
+    display: flex;
+    max-width: 960px;
+    margin-top: 30px;
+    margin: auto;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    background: rgb(13, 79, 133);
+   }
+
+h2 {
+    color: #4aaaa5;
+    background: white;
+    float: left;
+}
+
+img {
+    float: right;
+    margin-right: 20px;
+}
+
+.aboutme h2 {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+}
