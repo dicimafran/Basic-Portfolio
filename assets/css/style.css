@@ -1,75 +1,103 @@
 body {
-    background-image:url("assets/images/curls.png");
+    background-image:url("curls.png");
+    background-color: hsl(0, 0%, 100%);   
+} 
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
 }
 
+#nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: #ffffff;
+}
 
-
-#name {
-    color: white;
-    background: #4aaaa5;
+.name {
+    position: absolute;
+    top:0;
+    left:0;
     padding: 10px;
-    float: left;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 2px #cccccc;
+    
 }
 
-.nav {
-    display: flex;
-    max-width: 960px;
-    margin: auto;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: rgb(83, 53, 167);
 }
 
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: green;
-}
-
-li {
+.links {
+    display: inline block;
+    padding: 10px;
     float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    
 }
 
-li a {
-    display: inline-block;
-    color: blue;
-    text-align: center;
+.links > li {
+    display: inline;
+    list-style-type: none;
+}
+
+.links > li > a {
+    list-style-type: none;
     padding: 10px;
-    text-decoration: none;
+    float:right;
+    color: #777777;
 }
 
-
+.links {
+   padding: 20px;
+   margin-top: 20px;
+   float: right;
+}
 
 .aboutme {
-    display: flex;
+    position: relative;
+    top: 200px;
     max-width: 960px;
-    margin-top: 30px;
     margin: auto;
-    padding: 20px;
+    height: 500px;
+    padding: 10px;
     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: white;
-    background: rgb(13, 79, 133);
-   }
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
-h2 {
-    color: #4aaaa5;
-    background: white;
+.aboutme > h2 {
+    position:relative;
+    left: 0px;
+    padding: 10px;
+    color:#4aaaa5;
+
+}
+
+#avi {
     float: left;
+    padding: 10px;
 }
 
-img {
-    float: right;
-    margin-right: 20px;
+.aboutme > p {
+    color: #777777;
 }
 
-.aboutme h2 {
-    display: flex;
-    max-width: 960px;
+footer {
+    position: absolute;
+    width: 100%;
     margin: auto;
+    bottom: 0;
+    left: 0;
+    background-color:#666666;
+    padding: 15px;
+    text-align: center;   
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
